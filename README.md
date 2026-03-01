@@ -69,6 +69,7 @@ pip install pandas numpy scikit-learn matplotlib
 ```
 3) Download the Kaggle dataset and place files here:
 https://www.kaggle.com/datasets/ztrimus/backorder-dataset
+
 4) Open and run the notebook:
 ```bash
 jupyter notebook BO_Project.ipynb
