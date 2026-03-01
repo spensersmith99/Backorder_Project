@@ -3,7 +3,7 @@
 ## Overview
 This project builds a binary classification model to predict whether a product will go on backorder (`went_on_backorder = Yes/No`). Because backorders are rare, the project emphasizes **ranking and prioritization** (Top-K review) using **Precision–Recall metrics** rather than accuracy.
 
-**Primary goal:** Identify the highest-risk items (e.g., Top 1%) so an operations team could prioritize mitigation actions (replenishment, expediting, substitutions, inventory rebalancing, etc.).
+**Primary goal:** Identify the highest-risk items (e.g., Top 5%) so an operations team could prioritize mitigation actions (replenishment, expediting, substitutions, inventory rebalancing, etc.).
 
 ---
 
