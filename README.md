@@ -67,11 +67,11 @@ cd <Backorder_Project>
 ```bash
 pip install -r requirements.txt
 ```
-3) Download the Kaggle dataset and place files here:
-data/Kaggle_Training_Dataset_v2.csv
-data/Kaggle_Test_Dataset_v2.csv
+3) Download the Kaggle dataset and place files here:<br>  
+data/Kaggle_Training_Dataset_v2.csv<br>
+data/Kaggle_Test_Dataset_v2.csv<br>
 Dataset Link: https://www.kaggle.com/datasets/ztrimus/backorder-dataset
-
+<br>
 4) Open and run the notebook:
 ```bash
 jupyter notebook BO_Project.ipynb
