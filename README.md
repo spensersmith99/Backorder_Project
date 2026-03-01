@@ -43,14 +43,22 @@ Artifacts saved:
 ---
 
 ## Results
-Key results are reported in the notebook output and exported to:
-- `topk_metrics.csv` (Precision/Recall at multiple K levels)
-- `results.json` (summary metrics)
+Held-out validation performance:
+- **PR-AUC:** **0.228**
+- **Top 5% prioritization:** **Precision@K = 0.100**, **Recall@K = 0.745**
 
 Interpretation:
-- The model is used as a **risk ranking tool**, enabling a “review the top K items” workflow.
-- Precision–recall analysis shows the tradeoff between catching more backorders (recall) vs reducing false alarms (precision).
+- Using the model as a risk-ranking tool, reviewing the **top 5% highest-risk items** captures about **74.5% of true backorders** while maintaining about **10% precision** in the flagged list.
 
 ---
 
 ## Repository Structure
+
+
+---
+
+## How to Run
+1) Clone the repo:
+```bash
+git clone <github.com/spensersmith99/Backorder_Project>
+cd <repo-folder>
