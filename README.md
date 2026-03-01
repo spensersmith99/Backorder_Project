@@ -61,7 +61,7 @@ Interpretation:
 1) Clone the repo:
 ```bash
 git clone <github.com/spensersmith99/Backorder_Project>
-cd <BO_Project>
+cd <Backorder_Project>
 ```
 2) Install the requirements
 ```bash
