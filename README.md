@@ -65,7 +65,7 @@ cd <Backorder_Project>
 ```
 2) Install the requirements
 ```bash
-pip install pandas numpy scikit-learn matplotlib
+pip install -r requirements.txt
 ```
 3) Download the Kaggle dataset and place files here:
 data/Kaggle_Training_Dataset_v2.csv
