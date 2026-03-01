@@ -61,4 +61,15 @@ Interpretation:
 1) Clone the repo:
 ```bash
 git clone <github.com/spensersmith99/Backorder_Project>
-cd <repo-folder>
+cd <BO_Project>
+```
+2) Install the requirements
+```bash
+pip install pandas numpy scikit-learn matplotlib
+```
+3) Download the Kaggle dataset and place files here:
+https://www.kaggle.com/datasets/ztrimus/backorder-dataset
+4) Open and run the notebook:
+```bash
+jupyter notebook BO_Project.ipynb
+```
