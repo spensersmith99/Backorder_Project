@@ -73,5 +73,5 @@ data/Kaggle_Training_Dataset_v2.csv<br>
 data/Kaggle_Test_Dataset_v2.csv
 4) Open and run the notebook:
 ```bash
-jupyter notebook BO_Project.ipynb
+jupyter notebook backorder_risk_model.ipynb
 ```
