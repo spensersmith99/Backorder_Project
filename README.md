@@ -68,7 +68,9 @@ cd <BO_Project>
 pip install pandas numpy scikit-learn matplotlib
 ```
 3) Download the Kaggle dataset and place files here:
-https://www.kaggle.com/datasets/ztrimus/backorder-dataset
+data/Kaggle_Training_Dataset_v2.csv
+data/Kaggle_Test_Dataset_v2.csv
+Dataset Link: https://www.kaggle.com/datasets/ztrimus/backorder-dataset
 
 4) Open and run the notebook:
 ```bash
