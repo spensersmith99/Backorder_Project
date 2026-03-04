@@ -20,7 +20,7 @@ Files used:
 ## Methods
 ### Preprocessing
 - Dropped identifier column `sku` from model features (kept for reporting/submission).
-- Converted Yes/No flag features to 0/1.
+- Converted Yes/No flag features to 1/0.
 - Handled missing values with **median imputation**, fitting medians on the training split and applying to validation/test to avoid leakage.
 - Ensured train/validation/test feature columns match before prediction.
 
